@@ -1,0 +1,173 @@
+﻿l_english:
+
+###Admirals###
+
+leader_trait_battleship_commander: "Battleship commander"
+leader_trait_battleship_commander_desc: "This leader had commanded battleships for most of [Root.Leader.GetHerHis] lives. Fleets under [Root.Leader.GetHerHis] command will always have layers of thick armor and armor-penetrating ammunition. However, this comes at the cost of their agility.\n"
+
+leader_trait_cautious_admiral: "Cautious admiral"
+leader_trait_cautious_admiral_desc: "This leader is always vigilant and careful with admiral.GetHerHis maneuvers. They prefer more conservative and safe tactics if this means higher survivability of admiral.GetHerHis fleets under admiral.GetHerHis command.\n"
+
+leader_trait_ghost: "Ghost"
+leader_trait_ghost_desc: "This leader had come up with a number of tactics and tricks in order to keep their fleets untouchable by the enemy fire. While most think it's due to the admiral's ingenuity, a big part of it is thanks to very powerful reactors that are always working on their ships.\n"
+
+leader_trait_guerilla_tactics: "Guerilla tactics"
+leader_trait_guerilla_tactics_desc: "This leader studied guerilla tactics extensively. They prefer quick raids and immediate extractions before they could be overrun and cut off by the enemy.\n"
+
+leader_trait_old_school: "Old school"
+leader_trait_old_school_desc: "This leader prefers time-tested strategies and has a hard time accepting new ways of fighting. Fleets under their command usually employ outdated weaponry, but it gets the job done, so why bother?\n"
+
+leader_trait_space_artillerist: "Space artillerist"
+leader_trait_space_artillerist_desc: "This leader had served in the Artillery squadron and knows how to exploit its full capacity. \n"
+
+leader_trait_space_devil: "Space Devil"
+leader_trait_space_devil_desc: "Both the enemy and the allies fear this leader due to their fighting style. They don't give a nickname of 'Space Devil' without a good reason. \n"
+
+leader_trait_space_fox: "Space Fox"
+leader_trait_space_fox_desc: "Quick to get in and quick to get out. That's how the Supreme HQ describes this leader. Fleet commanders and servicemembers had given this admiral a nickname of 'Space Fox'. It seems though that the admiral and the officers under their command had taken pride in such description.\n"
+
+leader_trait_tech_savvy: "Tech-savvy"
+leader_trait_tech_savvy_desc: "This leader is doing everything they can in order to stay up to date with the newest military technologies. Their ships are always fitted with the most cutting-edge technology and weaponry in order to stay ahead of their enemies. The servicemembers are happy, but the government accountants - not so much.\n"
+
+leader_trait_yang_wen_li: "Yang Wen Li"
+leader_trait_yang_wen_li_desc: "Prominent admiral with great tactical and strategic skills in space warfare. They always think outside of the box and employ a wide range of tricks in order to outwit their enemies.\n"
+
+
+###Generals###
+
+leader_trait_cautious_general: "Cautious general"
+leader_trait_cautious_general_desc: "This general is cautious when it comes to battle planning and takes all possible precautions if it can reduce the risk of life loss. Lives of the service members under their command take higher priority over the battle success.\n"
+
+leader_trait_compassionate: "Compassionate"
+leader_trait_compassionate_desc: "This general is extremely compassionate to all life forms, be it their own unit, the civilian population, or even enemy combatants. The general goes to extreme lengths if it could reduce the amount of harm done to others because of war horrors.\n"
+
+leader_trait_diamond_dogs: "Diamond Dogs"
+leader_trait_diamond_dogs_desc: "Diamond Dogs is a former mercenary organization that operated independently during pre-FTL travel. After our empire started to expand - Diamond Dogs had integrated into our empire's Ground Forces. As long as they can operate semi-independently and keep spoils of war - they are a loyal unit to our Supreme HQ.\n"
+
+leader_trait_gale_wolf: "Gale Wolf"
+leader_trait_gale_wolf_desc: "This general believes agility and speed are the most important factors when it comes to superiority on the battlefield.\n"
+
+leader_trait_grey_wolf: "Grey Wolf"
+leader_trait_grey_wolf_desc: "This leader is a former commander of a special forces unit that specialized in sabotage, diversions, raids, and other offensive operations.\n"
+
+leader_trait_master_of_traps: "Master of traps"
+leader_trait_master_of_traps_desc: "This leader takes great joy in the careful planning of the ambushes, setting up the defensive perimeters, and laying minefields to the unsuspecting enemy.\n"
+
+leader_trait_chaos_master: "Chaos master"
+leader_trait_chaos_master_desc: "War is always chaotic, but in the midst of chaos - there are also opportunities. This leader seems to have mastered to control the troops under their command in the fog of war, lack of communications, and logistical nightmare.\n"
+
+leader_trait_old_blood_and_guts: "Old Blood and Guts"
+leader_trait_old_blood_and_guts_desc: "This leader does not have any sympathy for cowards or weak and does not expect the same from the enemy. It is expected that all service members will endure all harsh conditions and horrors of war if they want to become victorious. However, not all service members seem to be happy with the price they are expected to pay.\n"
+
+leader_trait_specops: "SpecOps"
+leader_trait_specops_desc: "This leader had served in one of the most elite Special Operations units in our empire. Experience gained there will prove indispensable to our fighting capacity.\n"
+
+
+
+###Generic###
+
+leader_trait_conservative: "Conservative"
+leader_trait_conservative_desc: "This leader does not adapt to this constantly changing world and wishes to complete their duties in an old-fashion way.\n"
+
+leader_trait_inactive: "Inactive"
+leader_trait_inactive_desc: "It seems that this leader is not interested in further professional growth. \n"
+
+leader_trait_health_freak: "Health freak"
+leader_trait_health_freak_desc: "This leader is fixed with the idea of extending their life expectancy and does everything in order to stay healthy. Unfortunately, it seems that their health is more important than their professional duties.\n"
+
+leader_trait_pill_popper: "Pill-popper"
+leader_trait_pill_popper_desc: "Rumour says that this leader frequently consumes a number of substances that ranges from mind-enhancing pills and recreational tranquilizers to cope with their stress.\n"
+
+
+###Governors###
+
+leader_trait_esthete: "Esthete"
+leader_trait_esthete_desc: "This governor is extremely concerned with visual pollution and aims to transform their surroundings into something more visually appealing. Unfortunately, it's not that easy to hide all those construction sites.\n"
+
+leader_trait_humane: "Humane"
+leader_trait_humane_desc: "This leader cannot withstand injustices done to the people and takes every opportunity to help out those struggling with day to day survival.\n"
+
+leader_trait_idealist: "Idealist"
+leader_trait_idealist_desc: "This leader believes in the bright nature of their fellow citizens. They refuse to acknowledge even the possibility of our people being corrupt or act in their own self-interest.\n"
+
+leader_trait_industrialist: "Industrialist"
+leader_trait_industrialist_desc: "This leader believes that you can, quite literally, build your way into prosperity! In order to do that - we need to lift all red tape and let loose our regulations when it comes to health and safety, personal space, noise and visual pollution, historic site Protection Act, etc.\n"
+
+leader_trait_loophole_finder: "Loophole finder"
+leader_trait_loophole_finder_desc: "This leader knows how the system works and does not shy away from exploiting it for personal gain.\n"
+
+leader_trait_marquis_de_sade: "Marquis de Sade"
+leader_trait_marquis_de_sade_desc: "What's the point of living if you don't get to enjoy your life? This leader is extremely liberal when it comes to indulging in pleasures known to our species. Restrictions that were placed under the influence of religious leaders have been lifted and people are encouraged to explore themselves … whatever that means!\n"
+
+leader_trait_paranoic: "Paranoic"
+leader_trait_paranoic_desc: "This leader is confident that local separatists, political opponents, and other opportunists are planning a coup d'etat in order to declare their independence from our empire. This is why we need tighter control over the military, a special counter-intelligence unit, and more security detachments in order to prevent that.\n"
+
+leader_trait_private_sector: "Private sector"
+leader_trait_private_sector_desc: "KPI's, dashboards, workflows, and agile methodologies. Those unknown terms are only unknown to the public officials that never worked in the private sector, where worker efficiency, productivity, and profit generation are considered to be the highest priority. Luckily, this leader comes from the private sector and is ready to implement the same methodologies in our bureaucratic apparatus.\n"
+
+leader_trait_professional_bureaucrat: "Professional bureaucrat"
+leader_trait_professional_bureaucrat_desc: "This leader had spent their entire life working as a government official. They know from the inside how the system works. They have a clear understanding of how to make other government officials and agencies do what needs to be done. Or on the contrary - make sure that something never happens!\n"
+
+leader_trait_rare_resources_collector: "Rare resources collector"
+leader_trait_rare_resources_collector_desc: "This leader enjoys collecting rare and exotic collectibles as a hobby. Exotic gases, rare metals, materials from far-away planets, artifacts with not fully studied physical properties - there are enough objects for a small museum. In exchange for some of the applicable resources, we had turned a blind eye on the fact that state funds were used to purchase most of them.\n"
+
+leader_trait_shadow_broker: "Shadow broker"
+leader_trait_shadow_broker_desc: "This leader does not shy away from selling information to various parties - as long as they are willing to pay. Corporate espionage, state secrets, intel on rivaling criminal organizations - as long as the price is right.\n"
+
+###Rulers###
+
+leader_trait_capitalist: "Capitalist"
+leader_trait_capitalist_desc: "Capitalism is god's way of determining who is smart and who is poor. We should embrace the free markets and the Invisible Hand in order to operate with the maximum utility. \n"
+
+leader_trait_enlightener: "Enlightener"
+leader_trait_enlightener_desc: "This leader is a cutting edge thinker and a reformist. The old way of thinking should be left in the bin of history. We should embrace modern age ideas and reforms that our state and people would benefit from. Even if that means leaving behind those who reject the fact that the New Age is upon us.\n"
+
+leader_trait_empire_master: "Empire master"
+leader_trait_empire_master_desc: "This leader is building a very rigid chain of command in order to ensure that no one can intervene in the state's affairs. While the hierarchy and responsibilities are clearly defined - not everyone is happy with such power distribution.\n"
+
+leader_trait_hedonist: "Hedonist"
+leader_trait_hedonist_desc: "This leader wants to take everything from the life they were given. More and more official receptions are being turned into wild parties with the best spirits, food, exotic dancers, species of easy virtue and mind-altering substances.\n"
+
+leader_trait_interGalactic_diplomat: "Intergalactic diplomat"
+leader_trait_interGalactic_diplomat_desc: "This leader takes great interest in intergalactic affairs and wishes to build a good relationship with the galactic community. Foreign affairs are the primary focus of this administration, internal affairs - not so much.\n"
+
+leader_trait_naive_ruler: "Naive ruler"
+leader_trait_naive_ruler_desc: "This leader is easily fooled by the politicians, lobbyists, and other groups with their own special interests.\n"
+
+leader_trait_planned_economy: "Planned economy"
+leader_trait_planned_economy_desc: "The government knows better what our empire and its people require. This leader personally oversees the production planning and budgeting in order to achieve our state's goals. We can't entrust the so-called 'Invisible hand' to do the job. \n"
+
+leader_trait_Reinhard_von_Lohengramm: "Reinhard von Lohengramm"
+leader_trait_Reinhard_von_Lohengramm_desc: "A great leader is great in everything - statecraft, military affairs, economy. They know exactly what this empire needs and how it can be achieved.\n"
+
+leader_trait_right_wing: "Right-wing"
+leader_trait_right_wing_desc: "This leader believes that it's up to the individual to achieve goals and success in one's life because no one should be taking responsibility for one's life other than the individual themselves. We should praise those who had achieved success in our society and use them as an example for our aspiring youth.\n"
+
+leader_trait_shadow_councilor: "Shadow councilor"
+leader_trait_shadow_councilor_desc: "This ruler is not hesitant to engage in backroom negotiations and favor trading if it could help to achieve their goals. Corporations, lobbyists, and shady organizations are happy to engage in, what they call, - 'opinion exchange'.\n"
+
+leader_trait_socialist: "Socialist"
+leader_trait_socialist_desc: "This leader believes in equality for everyone regardless of their position in society. Nepotism and other forms of favoritism are despised and those that are were found guilty of them - are persecuted mercilessly.\n"
+
+leader_trait_spineless: "Spineless"
+leader_trait_spineless_desc: "This ruler is easily persuaded and influenced by colleagues and other groups with special interests. Inside or outside of the government or even the empire.\n"
+
+###Scientists###
+
+leader_trait_careful_explorer: "Careful explorer"
+leader_trait_careful_explorer_desc: "This scientist employs very meticulous methods when performing their duty. While it yields great results in the long run - in the short run, this leader will take far greater time to finish their tasks.\n"
+
+leader_trait_close_minded: "Close-minded"
+leader_trait_close_minded_desc: "This scientist is bright, intelligent, and too overweening. They don't trust anyone's else data or research and if you want to do something right - you have to do it yourself.\n"
+
+leader_trait_foxhound: "Foxhound"
+leader_trait_foxhound_desc: "This explorer seems to have a special talent to look where others don't. They are great in exploring the distant systems and seems to have a trained eye when it comes to anomalies and adventures.\n"
+
+leader_trait_honest_worker: "Honest worker"
+leader_trait_honest_worker_desc: "This scientist believes in diligent and hard work. They are eager to learn and study new technologies and are always found to be working without any breaks. Unfortunately, it seems like overcompensation for the lack of brightness compared to other scientists.\n"
+
+leader_trait_lazy: "Lazy"
+leader_trait_lazy_desc: "No one knows, how this scientist had got this position as it seems that they never work. Showing up late in the morning, afternoon naps, and early-leaving through the working week seems to be normal. At least while they sleep - they don't request expensive reagents or experimental equipment.\n"
+
+leader_trait_lunatic: "Careful explorer"
+leader_trait_lunatic_desc: "This leader is a rare breed of scientists who are too bright for their own benefit. While everyone recognizes their genius and intellectual supremacy, their life and social skills are severely lacking.\n"

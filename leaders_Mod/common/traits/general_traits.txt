@@ -1,0 +1,302 @@
+# Positive Traits
+# 	Army Health
+# 	Disengage Chance
+# 	Collatarel Damage
+# Negative Traits
+# 	Army Damage
+leader_trait_cautious_general = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_cautious_admiral.dds"
+	modifier = {
+		army_disengage_chance_mult = 0.50
+		army_collateral_damage_mult = -0.33
+		army_damage_mult = -0.20
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	opposites = {
+		"leader_trait_compassionate"
+		"leader_trait_diamond_dogs"
+		"leader_trait_grey_wolf"
+		"leader_trait_master_of_traps"
+		"leader_trait_chaos_master"
+		"leader_trait_old_blood_and_guts"
+		"leader_trait_specops"
+	}	
+}
+
+# Positive Traits
+# 	Collatoral damage
+# 	Disengage chance 
+# Negative Traits
+# 	Army Damage
+# 	Upkeep
+leader_trait_compassionate = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_compassionate_general.dds"
+	self_modifier = {
+	}
+	modifier = {
+		army_disengage_chance_mult = 0.50
+		army_collateral_damage_mult = -0.5
+		army_damage_mult = -0.20
+		armies_upkeep_mult = 0.10
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	opposites = { 
+		"leader_trait_cautious_general"
+		"leader_trait_diamond_dogs"
+		"leader_trait_grey_wolf"
+		"leader_trait_master_of_traps"
+		"leader_trait_chaos_master"
+		"leader_trait_old_blood_and_guts"
+		"leader_trait_specops"
+	}
+}
+
+# Positive Traits
+# 	Army Damage/morale
+# 	Army XP gain
+# Negative Traits
+# 	Upkeep
+# 	Disengage
+leader_trait_diamond_dogs = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_diamond_dogs.dds"
+	modifier = {
+		army_damage_mult = 0.25
+		army_morale = 1
+		armies_upkeep_mult = 0.5
+		army_disengage_chance_mult = -0.25
+		
+	}
+
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	opposites = {
+		"leader_trait_cautious_general"
+		"leader_trait_compassionate"
+		"leader_trait_grey_wolf"
+		"leader_trait_master_of_traps"
+		"leader_trait_chaos_master"
+		"leader_trait_old_blood_and_guts"
+		"leader_trait_specops"
+	}	
+}
+
+# Positive Traits
+# 	Sublight Speed
+# Negative Traits
+# 	Armor 
+leader_trait_gale_wolf = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_gale_wolf.dds"
+	modifier = {
+		ship_base_speed_mult = 0.50
+		ship_armor_mult = -0.50
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	opposites = {
+		"leader_trait_cautious_general"
+		"leader_trait_compassionate"
+		"leader_trait_diamond_dogs"
+		"leader_trait_grey_wolf"
+		"leader_trait_master_of_traps"
+		"leader_trait_chaos_master"
+		"leader_trait_old_blood_and_guts"
+		"leader_trait_specops"
+	}	
+}
+
+# Positive Traits
+# 	Attack damage/morale
+# Negative Traits
+# 	Defense damage/morale
+leader_trait_grey_wolf = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_grey_wolf.dds"
+	self_modifier = {
+	}
+	modifier = {
+		army_attack_morale_mult = 0.20
+		army_attack_damage_mult = 0.20
+		army_defense_morale_mult = -0.20
+		army_defense_damage_mult = -0.20
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	opposites = { 
+		"leader_trait_cautious_general"
+		"leader_trait_compassionate"
+		"leader_trait_diamond_dogs"
+		"leader_trait_gale_wolf"
+		"leader_trait_master_of_traps"
+		"leader_trait_chaos_master"
+		"leader_trait_old_blood_and_guts"
+		"leader_trait_specops"
+	}
+}
+
+
+
+# Positive Traits
+# 	Defense damage/morale
+# Negative Traits
+# 	Attack damage/morale
+leader_trait_master_of_traps = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_master_of_traps.dds"
+	self_modifier = {
+	}
+	modifier = {
+		army_attack_morale_mult = -0.20
+		army_attack_damage_mult = -0.20
+		army_defense_morale_mult = 0.20
+		army_defense_damage_mult = 0.20
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	opposites = { 
+		"leader_trait_cautious_general"
+		"leader_trait_compassionate"
+		"leader_trait_diamond_dogs"
+		"leader_trait_gale_wolf"
+		"leader_trait_grey_wolf"
+		"leader_trait_chaos_master"
+		"leader_trait_old_blood_and_guts"
+		"leader_trait_specops"
+	}
+}
+
+# Positive Traits
+# 	Army Damage
+# Negative Traits
+# 	Collatoral damage
+# 	Disengage
+leader_trait_chaos_master = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_chaos_master.dds"
+	modifier = {
+		army_damage_mult = 0.25
+		army_collateral_damage_mult = 0.50
+		army_disengage_chance_mult = -0.25
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	opposites = {
+		"leader_trait_cautious_general"
+		"leader_trait_compassionate"
+		"leader_trait_diamond_dogs"
+		"leader_trait_gale_wolf"
+		"leader_trait_grey_wolf"
+		"leader_trait_master_of_traps"
+		"leader_trait_old_blood_and_guts"
+		"leader_trait_specops"
+	}	
+}
+
+# Positive Traits
+# 	Army Damage
+# 	Upkeep
+# Negative Traits
+# 	Army Morale
+# 	Collatoral damage
+leader_trait_old_blood_and_guts = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_old_blood_and_guts.dds"
+	self_modifier = {
+	}
+	modifier = {
+		army_damage_mult = 0.25
+		armies_upkeep_mult = -0.25
+		army_morale = -0.25
+		army_collateral_damage_mult = 0.50
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	opposites = { 
+		"leader_trait_cautious_general"
+		"leader_trait_compassionate"
+		"leader_trait_diamond_dogs"
+		"leader_trait_gale_wolf"
+		"leader_trait_grey_wolf"
+		"leader_trait_master_of_traps"
+		"leader_trait_chaos_master"
+		"leader_trait_specops"
+	}
+}
+
+# Positive Traits
+# 	Army damage/moral
+#   +XP gain
+# Negative Traits
+# 	Army upkeep
+leader_trait_specops = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_specops.dds"
+	modifier = {
+		army_damage_mult = 0.25
+		army_morale = 1
+		army_experience_gain_mult = 0.50
+		armies_upkeep_mult = 0.50
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	opposites = {
+		"leader_trait_cautious_general"
+		"leader_trait_compassionate"
+		"leader_trait_diamond_dogs"
+		"leader_trait_gale_wolf"
+		"leader_trait_grey_wolf"
+		"leader_trait_master_of_traps"
+		"leader_trait_chaos_master"
+		"leader_trait_old_blood_and_guts"
+	}	
+}

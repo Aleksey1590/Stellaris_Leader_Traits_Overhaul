@@ -1,0 +1,484 @@
+# Positive Traits
+# 	Trade Value
+# Negative Traits
+# 	Admin Cap
+# Neutral Traits
+leader_trait_capitalist = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_capitalist.dds"
+	self_modifier = {
+
+	}
+	modifier = {
+		trade_value_mult = 0.15
+		country_admin_cap_add = -15
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	opposites = {
+		"leader_trait_enlightener"
+		"leader_trait_empire_master"
+		"leader_trait_hedonist"
+		"leader_trait_interGalactic_diplomat"
+		"leader_trait_naive_ruler"
+		"leader_trait_planned_economy"
+		"leader_trait_Reinhard_von_Lohengramm"
+		"leader_trait_shadow_councilor"
+		"leader_trait_socialist"
+		"leader_trait_spinnless"
+	}	
+}
+
+# Positive Traits
+# 	Research
+# Negative Traits
+# 	leader cost
+# 	Governing ethics
+# Neutral Traits
+leader_trait_enlightener = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_enlightener.dds"
+	self_modifier = {
+	}
+	modifier = {
+		all_technology_research_speed = 0.10
+		leaders_cost_mult = 0.50
+		leaders_upkeep_mult = 0.50
+		pop_government_ethic_attraction = -0.25
+		pop_cat_ruler_happiness = -0.15
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	opposites = { 
+		"leader_trait_capitalist"
+		"leader_trait_empire_master"
+		"leader_trait_hedonist"
+		"leader_trait_interGalactic_diplomat"
+		"leader_trait_naive_ruler"
+		"leader_trait_planned_economy"
+		"leader_trait_Reinhard_von_Lohengramm"
+		"leader_trait_right_wing"
+		"leader_trait_shadow_councilor"
+		"leader_trait_socialist"
+		"leader_trait_spinnless"
+	}
+}
+
+# Positive Traits
+# 	Influence
+# Negative Traits
+# 	Ruler Happiness
+# Neutral Traits
+leader_trait_empire_master = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_empire_master.dds"
+	self_modifier = {
+
+	}
+	modifier = {
+		country_base_influence_produces_add = 1
+		pop_cat_ruler_happiness = -0.15
+	}
+
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	opposites = {
+		"leader_trait_capitalist"
+		"leader_trait_enlightener"
+		"leader_trait_hedonist"
+		"leader_trait_interGalactic_diplomat"
+		"leader_trait_naive_ruler"
+		"leader_trait_planned_economy"
+		"leader_trait_Reinhard_von_Lohengramm"
+		"leader_trait_right_wing"
+		"leader_trait_shadow_councilor"
+		"leader_trait_socialist"
+		"leader_trait_spinnless"
+	}	
+}
+
+# Positive Traits
+# 	Pop growth
+# 	Happiness
+# 	Migration
+# Negative Traits
+# 	Job production
+# Neutral Traits
+# 	Spiritual ethics
+# 	Militarist ethics
+leader_trait_hedonist = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_hedonist.dds"
+	self_modifier = {
+	}
+	modifier = {
+		pop_growth_speed = 0.10
+		pop_happiness = 0.10
+		pop_growth_from_immigration = 0.10
+		planet_jobs_produces_mult = -0.10
+		pop_ethic_militarist_attraction_mult = -0.33
+		pop_ethic_spiritualist_attraction_mult = -0.33
+
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	opposites = { 
+		"leader_trait_capitalist"
+		"leader_trait_enlightener"
+		"leader_trait_empire_master"
+		"leader_trait_interGalactic_diplomat"
+		"leader_trait_naive_ruler"
+		"leader_trait_planned_economy"
+		"leader_trait_Reinhard_von_Lohengramm"
+		"leader_trait_right_wing"
+		"leader_trait_shadow_councilor"
+		"leader_trait_socialist"
+		"leader_trait_spinnless"
+	}
+}
+
+# Positive Traits
+# 	Diplomatic weight
+# 	Additional envoys
+# Negative Traits
+# 	Admin Capacity
+# Neutral Traits
+leader_trait_interGalactic_diplomat = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_interGalactic_diplomat.dds"
+	self_modifier = {
+
+	}
+	modifier = {
+		country_admin_cap_add = -15
+		envoys_add = 1
+		diplo_weight_mult = 0.1
+
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	opposites = {
+		"leader_trait_capitalist"
+		"leader_trait_enlightener"
+		"leader_trait_empire_master"
+		"leader_trait_hedonist"
+		"leader_trait_naive_ruler"
+		"leader_trait_Reinhard_von_Lohengramm"
+		"leader_trait_shadow_councilor"
+		"leader_trait_spinnless"
+	}	
+}
+
+# Positive Traits
+# 	Ruler political power
+# 	Ruler happinness
+# Negative Traits
+# 	Influence
+# Neutral Traits
+leader_trait_naive_ruler = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_naive_ruler.dds"
+	self_modifier = {
+	}
+	modifier = {
+		country_base_influence_produces_add = -1
+		pop_cat_ruler_happiness = 0.15
+		pop_cat_ruler_political_power = 5
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	opposites = { 
+		"leader_trait_capitalist"
+		"leader_trait_enlightener"
+		"leader_trait_empire_master"
+		"leader_trait_hedonist"
+		"leader_trait_interGalactic_diplomat"
+		"leader_trait_planned_economy"
+		"leader_trait_Reinhard_von_Lohengramm"
+		"leader_trait_right_wing"
+		"leader_trait_shadow_councilor"
+		"leader_trait_socialist"
+		"leader_trait_spinnless"
+	}
+}
+
+# Positive Traits
+# 	Resource Production
+# Negative Traits
+# 	Trade Value
+# Neutral Traits
+leader_trait_planned_economy = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_planned_economy.dds"
+	self_modifier = {
+
+	}
+	modifier = {
+		country_alloys_produces_mult = 0.10
+		country_consumer_goods_produces_mult = 0.10
+		country_energy_produces_mult = 0.10
+		country_minerals_produces_mult = 0.10
+		country_food_produces_mult = 0.10
+		trade_value_mult = -0.25
+
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	opposites = {
+		"leader_trait_capitalist"
+		"leader_trait_enlightener"
+		"leader_trait_empire_master"
+		"leader_trait_hedonist"
+		"leader_trait_interGalactic_diplomat"
+		"leader_trait_naive_ruler"
+		"leader_trait_Reinhard_von_Lohengramm"
+		"leader_trait_right_wing"
+		"leader_trait_shadow_councilor"
+		"leader_trait_spinnless"
+	}	
+}
+
+# Positive Traits
+# 	AdminCapacity
+# 	Stability
+# 	Army Speed built
+# 	Ship Build Speed
+# Negative Traits
+# 	Leader Upkeep
+# 	Rulers happiness
+# Neutral Traits
+# 	Autocracy attraction
+leader_trait_Reinhard_von_Lohengramm = {
+	cost = 3
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_Reinhard_von_Lohengramm.dds"
+	self_modifier = {
+	}
+	modifier = {
+		country_admin_cap_mult = 0.20
+		planet_stability_add = 10
+		planet_army_build_speed_mult = 0.5
+		starbase_shipyard_build_speed_mult = 0.15
+		leaders_cost_mult = 0.50
+		leaders_upkeep_mult = 0.50
+		pop_cat_ruler_happiness = -0.15
+		pop_ethic_authoritarian_attraction_mult = 0.33
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	opposites = { 
+		"leader_trait_capitalist"
+		"leader_trait_enlightener"
+		"leader_trait_empire_master"
+		"leader_trait_hedonist"
+		"leader_trait_interGalactic_diplomat"
+		"leader_trait_naive_ruler"
+		"leader_trait_planned_economy"
+		"leader_trait_right_wing"
+		"leader_trait_shadow_councilor"
+		"leader_trait_socialist"
+		"leader_trait_spinnless"
+	}
+}
+
+# Positive Traits
+# 	Leader level bonus
+# 	Ruler and Specialist happiness
+# Negative Traits
+# 	Worker and Slave happiness
+# Neutral Traits
+# 	Egalitarian 
+# 	Autocracy
+leader_trait_right_wing = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_right_wing.dds"
+	self_modifier = {
+
+	}
+	modifier = {
+		leader_skill_levels = 2
+		pop_cat_ruler_happiness = 0.10
+		pop_cat_specialist_happiness = 0.10
+		pop_cat_worker_happiness = -0.15
+		pop_cat_slave_happiness = -0.15
+		pop_ethic_egalitarian_attraction_mult = -0.33
+		pop_ethic_authoritarian_attraction_mult = 0.33
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	opposites = {
+		"leader_trait_enlightener"
+		"leader_trait_empire_master"
+		"leader_trait_hedonist"
+		"leader_trait_interGalactic_diplomat"
+		"leader_trait_naive_ruler"
+		"leader_trait_planned_economy"
+		"leader_trait_Reinhard_von_Lohengramm"
+		"leader_trait_shadow_councilor"
+		"leader_trait_socialist"
+		"leader_trait_spinnless"
+	}	
+}
+
+# Positive Traits
+# 	Stability
+# 	Influence
+# 	Governing ethics
+# Negative Traits
+# 	Crime
+# Neutral Traits
+leader_trait_shadow_councilor = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_shadow_councilor.dds"
+	self_modifier = {
+	}
+	modifier = {
+		planet_stability_add = 10
+		country_base_influence_produces_add = 1
+		pop_government_ethic_attraction = 0.33
+		planet_crime_add = 25
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	opposites = { 
+		"leader_trait_capitalist"
+		"leader_trait_enlightener"
+		"leader_trait_empire_master"
+		"leader_trait_hedonist"
+		"leader_trait_interGalactic_diplomat"
+		"leader_trait_naive_ruler"
+		"leader_trait_planned_economy"
+		"leader_trait_Reinhard_von_Lohengramm"
+		"leader_trait_right_wing"
+		"leader_trait_socialist"
+		"leader_trait_spinnless"
+	}
+}
+
+# Positive Traits
+# 	Happiness
+# Negative Traits
+# 	Pop upkeep
+# Neutral Traits
+# 	Egalitarian 
+# 	Autocracy
+leader_trait_socialist = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_socialist.dds"
+	self_modifier = {
+
+	}
+	modifier = {
+		pop_cat_ruler_happiness = -0.15
+		pop_cat_specialist_happiness = -0.15
+		pop_cat_worker_happiness = 0.10
+		pop_cat_slave_happiness = 0.10
+		planet_jobs_produces_mult = -0.10
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	opposites = {
+		"leader_trait_capitalist"
+		"leader_trait_enlightener"
+		"leader_trait_empire_master"
+		"leader_trait_hedonist"
+		"leader_trait_interGalactic_diplomat"
+		"leader_trait_naive_ruler"
+		"leader_trait_Reinhard_von_Lohengramm"
+		"leader_trait_right_wing"
+		"leader_trait_shadow_councilor"
+		"leader_trait_spinnless"
+	}	
+}
+
+# Positive Traits
+# 	Ruler political power
+# 	Ruler happinness
+# Negative Traits
+# 	Admin Capacity
+# Neutral Traits
+leader_trait_spinnless = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_spinnless.dds"
+	self_modifier = {
+	}
+	modifier = {
+		pop_cat_ruler_happiness = 0.20
+		pop_cat_ruler_political_power = 5
+		country_admin_cap_add = -15
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	opposites = { 
+		"leader_trait_capitalist"
+		"leader_trait_enlightener"
+		"leader_trait_empire_master"
+		"leader_trait_hedonist"
+		"leader_trait_interGalactic_diplomat"
+		"leader_trait_naive_ruler"
+		"leader_trait_planned_economy"
+		"leader_trait_Reinhard_von_Lohengramm"
+		"leader_trait_right_wing"
+		"leader_trait_shadow_councilor"
+		"leader_trait_socialist"
+	}
+}

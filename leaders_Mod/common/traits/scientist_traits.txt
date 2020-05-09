@@ -1,0 +1,239 @@
+# Positive trait
+# 	Anomaly Discovery chance
+# Negative trait
+# 	Survey Speed
+# 	Anomaly research speed
+leader_trait_careful_explorer = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_careful_explorer.dds"
+	modifier = {
+		ship_anomaly_fail_risk = -0.50
+		ship_anomaly_generation_chance_mult = 0.15
+		ship_anomaly_research_speed_mult = -0.15
+		science_ship_survey_speed = -0.15
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = {
+		"leader_trait_carefree"
+		"leader_trait_close_minded"
+		"leader_trait_foxhound"
+		"leader_trait_honest_worker"
+		"leader_trait_lazy"
+		"leader_trait_lunatic"
+		"leader_trait_roamer"
+		"leader_trait_curator"
+		"leader_trait_towel"
+	}
+		ai_categories = {
+		survey
+	}
+
+	ai_weight = {
+		weight = 50
+	}	
+}
+
+# Positive trait
+# 	Research	
+# Negative trait
+# 	XP gain
+# 	Anomaly research speed
+leader_trait_close_minded = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_close_minded.dds"
+	self_modifier = {
+		species_leader_exp_gain = -0.20
+	}
+	modifier = {
+		all_technology_research_speed = 0.10
+		ship_anomaly_generation_chance_mult = -0.15
+		ship_anomaly_research_speed_mult = -0.15
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { 
+		"leader_trait_careful_explorer"
+		"leader_trait_foxhound"
+		"leader_trait_honest_worker"
+		"leader_trait_lazy"
+		"leader_trait_lunatic"
+
+		"leader_trait_paranoid"
+
+
+	}
+}
+
+# Positive trait
+# 	Anomaly Discovery chance
+# 	Survey Speed	
+# Negative trait
+# 	Upkeep+Cost
+leader_trait_foxhound = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_foxhound.dds"
+	self_modifier = {
+		leaders_cost_mult = 1
+		leaders_upkeep_mult = 1
+	}
+	modifier = {
+		ship_anomaly_generation_chance_mult = 0.20
+		science_ship_survey_speed = 0.20
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = {
+		"leader_trait_careful_explorer"
+		"leader_trait_close_minded"
+		"leader_trait_honest_worker"
+		"leader_trait_lazy"
+		"leader_trait_lunatic"
+
+		"leader_trait_roamer"
+		"leader_trait_curator"
+		"leader_trait_towel"
+	}	
+}
+
+# Positive trait
+# 	Anomaly discovery 
+# 	XP gain
+# Negative trait
+# 	Research Anomaly
+# 	research
+leader_trait_honest_worker = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_honest_worker.dds"
+	self_modifier = {
+		species_leader_exp_gain = 0.25
+	}
+	modifier = {
+		all_technology_research_speed = -0.10
+		ship_anomaly_research_speed_mult = -0.10
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { 
+		"leader_trait_careful_explorer"
+		"leader_trait_close_minded"
+		"leader_trait_foxhound"
+		"leader_trait_lazy"
+		"leader_trait_lunatic"
+
+		"leader_trait_custom_AI_assistant"
+		"leader_trait_sapient_AI_assistant"
+		"leader_trait_curator"
+		"leader_trait_spark_of_genius"
+		"leader_trait_maniacal"
+		"leader_trait_scientist_erudite"
+
+		"leader_trait_paranoid"
+
+		"leader_trait_roamer"
+		"leader_trait_curator"
+		"leader_trait_towel"
+	}
+}
+
+
+# Positive trait
+# 	Upkeep
+# 	Cost
+# 	
+# Negative trait
+# 	Research
+# 	Survey
+# 	
+leader_trait_lazy = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_lazy.dds"
+	self_modifier = {
+		leaders_cost_mult = -0.50
+		leaders_upkeep_mult = -0.50
+	}
+	modifier = {
+		science_ship_survey_speed = -0.10
+		all_technology_research_speed = -0.10
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = {
+		"leader_trait_careful_explorer"
+		"leader_trait_close_minded"
+		"leader_trait_foxhound"
+		"leader_trait_honest_worker"
+		"leader_trait_lunatic"
+
+		"leader_trait_custom_AI_assistant"
+		"leader_trait_sapient_AI_assistant"
+		"leader_trait_curator"
+		"leader_trait_spark_of_genius"
+		"leader_trait_maniacal"
+		"leader_trait_scientist_erudite"
+
+		"leader_trait_paranoid"
+
+		"leader_trait_roamer"
+		"leader_trait_curator"
+		"leader_trait_towel"
+	}	
+}
+
+# Positive trait
+# 	Research Speed
+# Negative trait
+# 	Leader XP
+# 	Upkeep + cost
+leader_trait_lunatic = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_lunatic.dds"
+	self_modifier = {
+		leaders_cost_mult = 0.50
+		leaders_upkeep_mult = 0.50
+		species_leader_exp_gain = -0.15
+	}
+	modifier = {
+		all_technology_research_speed = 0.20
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { 
+		"leader_trait_careful_explorer"
+		"leader_trait_close_minded"
+		"leader_trait_foxhound"
+		"leader_trait_honest_worker"
+		"leader_trait_lazy"
+
+	}
+}

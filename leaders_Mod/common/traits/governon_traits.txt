@@ -1,0 +1,395 @@
+# Positive Traits
+# 	Unity +10%
+# 	Amenities +10%
+# Negative Traits
+# 	Build Speed -25%
+# 	Blocker cleanup -25%
+# Neutral Traits
+leader_trait_esthete = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esthete.dds"
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.15
+		planet_amenities_mult = 0.15
+		planet_buildings_cost_mult = 0.25
+		planet_districts_cost_mult = 0.25
+		planet_building_build_speed_mult = -0.25
+		planet_clear_blocker_time_mult = 0.25
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { 
+		"leader_trait_eager"
+		"leader_trait_industrialist" 
+		"leader_trait_loophole_finder"
+	}
+}
+
+
+
+# Positive Traits
+# 	Stability +10
+# 	Happiness +5
+# Negative Traits
+# 	Slave production -15%
+# 	Mineral Production -10%
+# Neutral Traits
+# 	Egalitarina +33% attraction
+# 	Autocratic -33% attraction
+leader_trait_humane = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_humane.dds"
+	modifier = {
+		planet_stability_add = 10
+		pop_happiness = 0.10
+		planet_jobs_slave_produces_mult = -0.10
+		planet_jobs_worker_produces_mult = -0.10
+		pop_ethic_egalitarian_attraction_mult = 0.15
+		pop_ethic_authoritarian_attraction_mult = -0.15
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { 
+		"leader_trait_eager"
+		"leader_trait_industrialist"
+		"leader_trait_paranoic"
+		"leader_trait_shadow_broker"
+	}
+}
+
+# Positive Traits
+# 	Upkeep -50%
+# 	Trade +10%
+# Negative Traits
+# 	Crime +10%
+# 	Admin Capacity -5%
+# Neutral Traits
+leader_trait_idealist = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_idealist.dds"
+	self_modifier = {
+		leaders_cost_mult = -0.50
+		leaders_upkeep_mult = -0.50
+	}
+	modifier = {
+		trade_value_mult = 0.15
+		planet_crime_add = 25
+		country_admin_cap_mult = -0.05
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { 
+		"leader_trait_eager"
+		"leader_trait_industrialist"
+		"leader_trait_loophole_finder"
+		"leader_trait_marquis_de_sade"
+		"leader_trait_paranoic" 
+		"leader_trait_professional_bureaucrat"
+		"leader_trait_rare_resources_collector"
+		"leader_trait_shadow_broker"
+	}	
+}
+
+# Positive Traits
+# 	Build Speed time +50%
+# 	Blocker build time +50%
+# 	Housing +10 flat bonus
+# 	Resource Production +10%
+# Negative Traits
+# 	Amenities -15%
+# 	Research -15%
+# 	Unity -30%
+# Neutral Traits
+# 	None
+leader_trait_industrialist = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_industrialist.dds"
+	modifier = {
+		# planet_miner_minerals_produces_mult = 0.15
+		planet_jobs_minerals_produces_mult = 0.15
+		planet_housing_add = 10
+		planet_buildings_cost_mult = -0.20
+		planet_districts_cost_mult = -0.20
+		planet_building_build_speed_mult = 0.50
+		planet_amenities_mult = -0.15
+		planet_jobs_physics_research_produces_mult = -0.15
+		planet_jobs_society_research_produces_mult = -0.15
+		planet_jobs_unity_produces_mult = -0.30
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = {
+		"leader_trait_eager"
+		"leader_trait_esthete"
+		"leader_trait_humane" 
+		"leader_trait_idealist"
+		"leader_trait_marquis_de_sade" 
+		"leader_trait_paranoic"
+		"leader_trait_private_sector"
+		"leader_trait_professional_bureaucrat"
+		"leader_trait_rare_resources_collector" 
+		"leader_trait_shadow_broker"
+	}
+}
+
+# Positive Traits
+#	Resource usage on the planet -10%
+# Negative Traits
+# 	Crime +10
+# 	Upkeep +50%
+# Neutral Traits
+# 	None
+leader_trait_loophole_finder = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_loophole_finder.dds"
+	self_modifier = {
+		leaders_cost_mult = 0.50
+		leaders_upkeep_mult = 0.50
+	}
+	modifier = {
+		planet_structures_upkeep_mult = -0.10
+		planet_crime_add = 10
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { 
+		"leader_trait_eager"
+		"leader_trait_idealist" 
+		"leader_trait_marquis_de_sade" 
+		"leader_trait_paranoic" 
+		}
+}
+
+# Positive Traits
+#	Pop Growth +10%
+#	Happiness +10%
+# Negative Traits
+# 	Job Production -10%
+# Neutral Traits
+# 	Materialistic +50% attraction
+# 	Spiritual -50% attraction
+leader_trait_marquis_de_sade = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_marquis_de_sade.dds"
+	modifier = {
+		pop_happiness = 0.10
+		pop_growth_speed = 0.10
+		planet_jobs_produces_mult = -0.10
+		pop_ethic_materialist_attraction_mult = 0.15
+		pop_ethic_spiritualist_attraction_mult = -0.15
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { 
+		"leader_trait_eager"
+		"leader_trait_industrialist"
+		"leader_trait_loophole_finder"
+		"leader_trait_paranoic"
+		"leader_trait_professional_bureaucrat"
+		"leader_trait_shadow_broker"
+	}
+}
+
+# Positive Traits
+# 	Stability +10
+# 	Crime -10%
+# 	Enforcers +2 jobs
+# Negative Traits
+# 	Unity -10%	
+#	Trade attractiveness -10%
+# Neutral Traits
+# 	None
+leader_trait_paranoic = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_paranoic.dds"
+	modifier = {
+		planet_stability_add = 10
+		planet_crime_mult = -0.10
+		job_enforcer_add = 2
+		pop_defense_armies_add = 2
+		planet_jobs_unity_produces_mult = -0.10
+		trade_value_mult = -0.10
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { 
+		"leader_trait_eager"
+		"leader_trait_humane" 
+		"leader_trait_idealist"
+		"leader_trait_industrialist"
+		"leader_trait_loophole_finder" 
+		"leader_trait_marquis_de_sade"
+		"leader_trait_professional_bureaucrat" 
+		"leader_trait_shadow_broker"
+	}
+}
+
+# Positive Traits
+#	Trade Value +10%
+#   Merchant Jobs +1
+# Negative Traits
+# 	Upkeep +50%
+# Neutral Traits
+# 	None
+leader_trait_private_sector = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_private_sector.dds"
+	self_modifier = {
+		leaders_cost_mult = 0.50
+		leaders_upkeep_mult = 0.50
+	}
+	modifier = {
+		trade_value_mult = 0.10
+		job_merchant_add = 1
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { 
+		"leader_trait_eager"
+		"leader_trait_idealist"
+		"leader_trait_industrialist"
+		"leader_trait_professional_bureaucrat"
+	}
+}
+
+# Positive Traits
+# 	Administrative Capacity +15%
+# 	Resource Production +10%
+# Negative Traits
+# 	Upkeep +50%
+# 	Happiness -10%
+# Neutral Traits
+# 	None
+leader_trait_professional_bureaucrat = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_professional_bureaucrat.dds"
+	self_modifier = {
+		leaders_cost_mult = 0.50
+		leaders_upkeep_mult = 0.50
+	}
+	modifier = {
+		country_admin_cap_mult = 0.15
+		planet_jobs_produces_mult = 0.10
+		pop_happiness = -0.10
+
+		
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { 
+		"leader_trait_eager"
+		"leader_trait_idealist" 
+		"leader_trait_marquis_de_sade" 
+		
+	}
+}
+
+
+# Positive Traits
+# 	exotic_gases
+# 	rare_crystals
+# 	volatile_motes
+# Negative Traits
+# 	Minerals production -10%
+# Neutral Traits
+# 	None
+leader_trait_rare_resources_collector = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_rare_resources_collector.dds"
+	modifier = {
+		job_crystal_miner_add = 1
+		job_mote_harvester_add = 1
+		job_gas_extractor_add = 1
+		planet_jobs_minerals_produces_mult = -0.10
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { 
+		"leader_trait_eager"
+		"leader_trait_humane" 
+		"leader_trait_idealist" 
+		"leader_trait_industrialist"
+		"leader_trait_paranoic" 
+		"leader_trait_professional_bureaucrat" 
+		"leader_trait_shadow_broker" 
+	}	
+}
+
+# Positive Traits
+# 	Stability +20
+# Negative Traits
+# 	Crime +25
+# Neutral Traits
+leader_trait_shadow_broker = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_shadow_broker.dds"
+	modifier = {
+		planet_stability_add = 20
+		planet_crime_add = 25
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = {
+		"leader_trait_eager"
+		"leader_trait_humane" 
+		"leader_trait_idealist"
+		"leader_trait_industrialist"
+		"leader_trait_marquis_de_sade"
+		"leader_trait_paranoic" 
+	}	
+}

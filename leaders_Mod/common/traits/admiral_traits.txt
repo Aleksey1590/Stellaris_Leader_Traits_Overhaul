@@ -1,0 +1,379 @@
+# batlleCruiser_commander
+# space_fox
+# tech_savvy
+# space_devil
+# ghost
+# yang_wen_li
+# old_school
+# space_artillerist
+# cautious_admiral
+# guerilla_tactics
+
+# Positive Traits
+# 	Armour 
+# 	Kinetic Damage
+# Negative Traits
+# 	Ship Speed 
+# 	Evasion
+leader_trait_battleship_commander = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_battleship_commander.dds"
+	modifier = {
+		ship_armor_mult = 0.15
+		ship_armor_penetration_mult = 0.15
+		ship_base_speed_mult = -0.15
+		ship_evasion_mult = -0.15
+
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	opposites = {
+		"leader_trait_cautious_admiral"
+		"leader_trait_ghost"
+		"leader_trait_guerilla_tactics"
+		"leader_trait_old_school"
+		"leader_trait_space_artillerist"
+		"leader_trait_space_devil"
+		"leader_trait_space_fox"
+		"leader_trait_tech_savvy"
+		"leader_trait_yang_wen_li"
+	}	
+}
+
+# Positive Traits
+# 	Disengage
+# 	Evasion
+# 	FTL damage
+# Negative Traits
+# 	Chance to hit / Accuracy
+leader_trait_cautious_admiral = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_cautious_admiral.dds"
+	self_modifier = {
+	}
+	modifier = {
+		ship_evasion_mult = 0.15
+		ship_disengage_chance_mult = 0.33
+		ship_emergency_ftl_mult = -0.50
+		ship_accuracy_mult = -0.15
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	opposites = { 
+		"leader_trait_battleship_commander"
+		"leader_trait_ghost"
+		"leader_trait_guerilla_tactics"
+		"leader_trait_old_school"
+		"leader_trait_space_artillerist"
+		"leader_trait_space_devil"
+		"leader_trait_space_fox"
+		"leader_trait_tech_savvy"
+		"leader_trait_yang_wen_li"
+	}
+}
+
+# Positive Traits
+# 	Speed 
+# 	Evasion
+# 	Disengage
+# Negative Traits
+# 	Ship upkeep
+	
+leader_trait_ghost = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_ghost.dds"
+	modifier = {
+		ship_evasion_mult = 0.50
+		ship_disengage_chance_mult = 1
+		ships_upkeep_mult = 0.50
+
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	opposites = {
+		"leader_trait_battleship_commander"
+		"leader_trait_cautious_admiral"
+		"leader_trait_guerilla_tactics"
+		"leader_trait_old_school"
+		"leader_trait_space_artillerist"
+		"leader_trait_space_devil"
+		"leader_trait_space_fox"
+		"leader_trait_tech_savvy"
+		"leader_trait_yang_wen_li"
+	}	
+}
+
+# Positive Traits
+# 	Disengage
+# 	FTL Damage 
+# 	Hull damage
+# Negative Traits
+# 	Hull Points
+# 	Armour points 
+leader_trait_guerilla_tactics = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_guerilla_tactics.dds"
+	self_modifier = {
+	}
+	modifier = {
+		ship_disengage_chance_mult = 0.33
+		ship_emergency_ftl_mult = -0.50
+		ship_hull_damage_mult = 0.15
+		ship_hull_mult= -0.15
+
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	opposites = { 
+		"leader_trait_battleship_commander"
+		"leader_trait_cautious_admiral"
+		"leader_trait_ghost"
+		"leader_trait_old_school"
+		"leader_trait_space_artillerist"
+		"leader_trait_space_devil"
+		"leader_trait_space_fox"
+		"leader_trait_tech_savvy"
+		"leader_trait_yang_wen_li"
+	}
+}
+
+# Positive Traits
+# 	Upkeep
+# 	Armour
+# Negative Traits
+# 	Speed
+
+leader_trait_old_school = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_old_school.dds"
+	self_modifier = {
+
+	}
+	modifier = {
+		ships_upkeep_mult = -0.20
+		ship_armor_mult = 0.15
+		ship_base_speed_mult = -0.15
+		ship_shield_mult = -0.15
+		
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	opposites = {
+		"leader_trait_battleship_commander"
+		"leader_trait_cautious_admiral"
+		"leader_trait_ghost"
+		"leader_trait_guerilla_tactics"
+		"leader_trait_space_artillerist"
+		"leader_trait_space_devil"
+		"leader_trait_space_fox"
+		"leader_trait_tech_savvy"
+		"leader_trait_yang_wen_li"
+	}	
+}
+
+# Positive Traits
+# 	Weapon Range
+# 	Planet Bomb damage
+# Negative Traits
+# 	Chance to hit / Accuracy
+leader_trait_space_artillerist = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_space_artillerist.dds"
+	self_modifier = {
+	}
+	modifier = {
+		planet_orbital_bombardment_damage = 0.25
+		ship_armor_penetration_mult = 0.15
+		ship_accuracy_mult = -0.15
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	opposites = { 
+		"leader_trait_battleship_commander"
+		"leader_trait_cautious_admiral"
+		"leader_trait_ghost"
+		"leader_trait_guerilla_tactics"
+		"leader_trait_old_school"
+		"leader_trait_space_devil"
+		"leader_trait_space_fox"
+		"leader_trait_tech_savvy"
+		"leader_trait_yang_wen_li"
+	}
+}
+
+# Positive Traits
+# 	Damage 
+# Negative Traits
+# 	Disengage chance
+# 	Ship Upkeep
+leader_trait_space_devil = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_space_devil.dds"
+	modifier = {
+		ship_weapon_damage = 0.25
+		ship_disengage_chance_mult = -0.33
+		ships_upkeep_mult = 0.20
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	opposites = {
+		"leader_trait_battleship_commander"
+		"leader_trait_cautious_admiral"
+		"leader_trait_ghost"
+		"leader_trait_guerilla_tactics"
+		"leader_trait_old_school"
+		"leader_trait_space_artillerist"
+		"leader_trait_space_fox"
+		"leader_trait_tech_savvy"
+		"leader_trait_yang_wen_li"
+	}	
+}
+
+# Positive Traits
+# 	Ship Speed
+# 	Evasion
+# 	Disengage
+# 	FTL damage
+# Negative Traits
+# 	Shield points
+# 	Armour points
+leader_trait_space_fox = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_space_fox.dds"
+	self_modifier = {
+	}
+	modifier = {
+		ship_evasion_mult = 0.15
+		ship_disengage_chance_mult = 0.33
+		ship_emergency_ftl_mult = -0.50
+		ship_base_speed_mult = 0.33
+		ship_armor_mult = -0.15
+		ship_shield_mult = -0.15
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	opposites = { 
+		"leader_trait_battleship_commander"
+		"leader_trait_cautious_admiral"
+		"leader_trait_ghost"
+		"leader_trait_guerilla_tactics"
+		"leader_trait_old_school"
+		"leader_trait_space_artillerist"
+		"leader_trait_space_devil"
+		"leader_trait_tech_savvy"
+		"leader_trait_yang_wen_li"
+	}
+}
+
+# Positive Traits
+# 	Shields
+# 	Fire Rate
+# 	Speed
+# Negative Traits
+# 	Armour 
+# 	Ship upkeep
+leader_trait_tech_savvy = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_tech_savvy.dds"
+	modifier = {
+		ship_shield_mult = 0.15
+		ship_fire_rate_mult = 0.20
+		ship_base_speed_mult = 0.15
+		ship_armor_mult = -0.25
+		ships_upkeep_mult = 0.20
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	opposites = {
+		"leader_trait_battleship_commander"
+		"leader_trait_cautious_admiral"
+		"leader_trait_ghost"
+		"leader_trait_guerilla_tactics"
+		"leader_trait_old_school"
+		"leader_trait_space_artillerist"
+		"leader_trait_space_devil"
+		"leader_trait_space_fox"
+		"leader_trait_yang_wen_li"
+	}	
+}
+
+# Positive Traits
+# 	Damage 
+# 	Evasion
+# 	Speed
+# Negative Traits
+#	Ship Upkeep 
+leader_trait_yang_wen_li = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_yang_wen_li.dds"
+	self_modifier = {
+	}
+	modifier = {
+		ship_weapon_damage = 0.25
+		ship_evasion_mult = 0.10
+		ships_upkeep_mult = 0.25
+	}
+	leader_potential_add = {
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+	opposites = { 
+		"leader_trait_battleship_commander"
+		"leader_trait_cautious_admiral"
+		"leader_trait_ghost"
+		"leader_trait_guerilla_tactics"
+		"leader_trait_old_school"
+		"leader_trait_space_artillerist"
+		"leader_trait_space_devil"
+		"leader_trait_space_fox"
+		"leader_trait_tech_savvy"
+	}
+}
