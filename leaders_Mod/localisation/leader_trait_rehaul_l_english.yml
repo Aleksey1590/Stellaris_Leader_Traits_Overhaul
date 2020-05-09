@@ -3,10 +3,10 @@
 ###Admirals###
 
 leader_trait_battleship_commander: "Battleship commander"
-leader_trait_battleship_commander_desc: "This leader had commanded battleships for most of [Root.Leader.GetHerHis] lives. Fleets under [Root.Leader.GetHerHis] command will always have layers of thick armor and armor-penetrating ammunition. However, this comes at the cost of their agility.\n"
+leader_trait_battleship_commander_desc: "This leader had commanded battleships for most of their lives. Fleets under their command will always have layers of thick armor and armor-penetrating ammunition. However, this comes at the cost of their agility.\n"
 
 leader_trait_cautious_admiral: "Cautious admiral"
-leader_trait_cautious_admiral_desc: "This leader is always vigilant and careful with admiral.GetHerHis maneuvers. They prefer more conservative and safe tactics if this means higher survivability of admiral.GetHerHis fleets under admiral.GetHerHis command.\n"
+leader_trait_cautious_admiral_desc: "This leader is always vigilant and careful with their maneuvers. They prefer more conservative and safe tactics if this means higher survivability of the fleets under thier command.\n"
 
 leader_trait_ghost: "Ghost"
 leader_trait_ghost_desc: "This leader had come up with a number of tactics and tricks in order to keep their fleets untouchable by the enemy fire. While most think it's due to the admiral's ingenuity, a big part of it is thanks to very powerful reactors that are always working on their ships.\n"
