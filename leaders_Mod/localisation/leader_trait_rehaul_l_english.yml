@@ -5,7 +5,7 @@
 leader_trait_battleship_commander: "Battleship commander"
 leader_trait_battleship_commander_desc: "This leader had commanded battleships for most of their lives. Fleets under their command will always have layers of thick armor and armor-penetrating ammunition. However, this comes at the cost of their agility.\n"
 
-leader_trait_cautious_admiral: "Cautious admiral"
+leader_trait_cautious_admiral: "Vigilant"
 leader_trait_cautious_admiral_desc: "This leader is always vigilant and careful with their maneuvers. They prefer more conservative and safe tactics if this means higher survivability of the fleets under thier command.\n"
 
 leader_trait_ghost: "Ghost"
@@ -97,7 +97,7 @@ leader_trait_loophole_finder: "Loophole finder"
 leader_trait_loophole_finder_desc: "This leader knows how the system works and does not shy away from exploiting it for personal gain.\n"
 
 leader_trait_marquis_de_sade: "Marquis de Sade"
-leader_trait_marquis_de_sade_desc: "What's the point of living if you don't get to enjoy your life? This leader is extremely liberal when it comes to indulging in pleasures known to our species. Restrictions that were placed under the influence of religious leaders have been lifted and people are encouraged to explore themselves … whatever that means!\n"
+leader_trait_marquis_de_sade_desc: "What's the point of living if you don't get to enjoy your life? This leader is extremely liberal when it comes to indulging in pleasures known to our species. Restrictions that were placed under the influence of religious leaders have been lifted and people are encouraged to explore themselves ... whatever that means!\n"
 
 leader_trait_paranoic: "Paranoic"
 leader_trait_paranoic_desc: "This leader is confident that local separatists, political opponents, and other opportunists are planning a coup d'etat in order to declare their independence from our empire. This is why we need tighter control over the military, a special counter-intelligence unit, and more security detachments in order to prevent that.\n"
@@ -109,10 +109,10 @@ leader_trait_professional_bureaucrat: "Professional bureaucrat"
 leader_trait_professional_bureaucrat_desc: "This leader had spent their entire life working as a government official. They know from the inside how the system works. They have a clear understanding of how to make other government officials and agencies do what needs to be done. Or on the contrary - make sure that something never happens!\n"
 
 leader_trait_rare_resources_collector: "Rare resources collector"
-leader_trait_rare_resources_collector_desc: "This leader enjoys collecting rare and exotic collectibles as a hobby. Exotic gases, rare metals, materials from far-away planets, artifacts with not fully studied physical properties - there are enough objects for a small museum. In exchange for some of the applicable resources, we had turned a blind eye on the fact that state funds were used to purchase most of them.\n"
+leader_trait_rare_resources_collector_desc: "This leader enjoys collecting rare and exotic collectibles as a hobby. Exotic gases, rare metals, materials from far-away planets, artifacts with not fully studied physical properties and so on. In exchange for some of the applicable resources, we had turned a blind eye on the fact that state funds were used to purchase most of them.\n"
 
 leader_trait_shadow_broker: "Shadow broker"
-leader_trait_shadow_broker_desc: "This leader does not shy away from selling information to various parties - as long as they are willing to pay. Corporate espionage, state secrets, intel on rivaling criminal organizations - as long as the price is right.\n"
+leader_trait_shadow_broker_desc: "This leader does not shy away from selling information to various parties. Corporate espionage, state secrets, intel on rivaling criminal organizations - as long as the price is right.\n"
 
 ###Rulers###
 
