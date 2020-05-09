@@ -1,0 +1,218 @@
+﻿Admirals
+Battleship commander
+This leader had commanded battleships for most of their lives. Fleets under their command will always have layers of thick armor and armor-penetrating ammunition. However, this comes at the cost of their agility.
+
+
+Cautious admiral
+This leader is always vigilant and careful with their maneuvers. They prefer more conservative and safe tactics if this means higher survivability of the fleets under their command.
+
+
+Ghost
+This leader had come up with a number of tactics and tricks in order to keep their fleets untouchable by the enemy fire. While most think it’s due to the admiral’s ingenuity, a big part of it is thanks to very powerful reactors that are always working on their ships.
+
+
+Guerilla tactics
+This leader studied guerilla tactics extensively. They prefer quick raids and immediate extractions before they could be overrun and cut off by the enemy. 
+
+
+Old School
+This leader prefers time-tested strategies and has a hard time accepting new ways of fighting. Fleets under their command usually employ outdated weaponry, but it gets the job done, so why bother? 
+
+
+Space artillerist
+This leader had served in the Artillery squadron and knows how to exploit its full capacity. 
+
+
+Space Devil
+Both the enemy and the allies fear this leader due to their fighting style. They don’t give a nickname of ‘Space Devil’ without a good reason. 
+
+
+Space Fox
+Quick to get in and quick to get out. That’s how the Supreme HQ describes this leader. Fleet commanders and servicemembers had given this admiral a nickname of ‘Space Fox’. It seems though that the admiral and the officers under their command had taken pride in such description.
+
+
+Tech-savvy
+This leader is doing everything they can in order to stay up to date with the newest military technologies. Their ships are always fitted with the most cutting-edge technology and weaponry in order to stay ahead of their enemies. The servicemembers are happy, but the government accountants - not so much.  
+
+
+Yang Wen-li
+Prominent admiral with great tactical and strategic skills in space warfare. They always think outside of the box and employ a wide range of tricks in order to outwit their enemies.  
+
+
+
+
+
+
+Generals
+Cautious
+This general is cautious when it comes to battle planning and takes all possible precautions if it can reduce the risk of life loss. Lives of the service members under their command take higher priority over the battle success. 
+
+
+Compassionate
+This general is extremely compassionate to all life forms, be it their own unit, the civilian population, or even enemy combatants. The general goes to extreme lengths if it could reduce the amount of harm done to others because of war horrors. 
+
+
+Diamond Dogs
+Diamond Dogs is a former mercenary organization that operated independently during pre-FTL travel. After our empire started to expand - Diamond Dogs had integrated into our empire’s Ground Forces. As long as they can operate semi-independently and keep spoils of war - they are a loyal unit to our Supreme HQ. 
+
+
+Gale Wolf
+This general believes agility and speed are the most important factors when it comes to superiority on the battlefield. 
+
+
+Grey Wolf
+This leader is a former commander of a special forces unit that specialized in sabotage, diversions, raids, and other offensive operations.  
+
+
+Master of traps
+This leader takes great joy in the careful planning of the ambushes, setting up the defensive perimeters, and laying minefields to the unsuspecting enemy. 
+
+
+Chaos master
+War is always chaotic, but in the midst of chaos - there are also opportunities. This leader seems to have mastered to control the troops under their command in the fog of war, lack of communications, and logistical nightmare. 
+
+
+Old Blood and Guts
+This leader does not have any sympathy for cowards or weak and does not expect the same from the enemy. It is expected that all service members will endure all harsh conditions and horrors of war if they want to become victorious. However, not all service members seem to be happy with the price they are expected to pay. 
+
+
+SpecOps
+This leader had served in one of the most elite Special Operations units in our empire. Experience gained there will prove indispensable to our fighting capacity.  
+
+
+
+
+Generic - Common
+Conservative
+This leader does not adapt to this constantly changing world and wishes to complete their duties in an old-fashion way. 
+
+
+Inactive
+It seems that this leader is not interested in further professional growth. 
+
+
+Health freak
+This leader is fixed with the idea of extending their life expectancy and does everything in order to stay healthy. Unfortunately, it seems that their health is more important than their professional duties. 
+
+
+Pill popper
+Rumour says that this leader frequently consumes a number of substances that ranges from mind-enhancing pills and recreational tranquilizers to cope with their stress. 
+
+
+Governors
+Esthete
+This governor is extremely concerned with visual pollution and aims to transform their surroundings into something more visually appealing. Unfortunately, it’s not that easy to hide all those construction sites. 
+
+
+Humane
+This leader cannot withstand injustices done to the people and takes every opportunity to help out those struggling with day to day survival. 
+
+
+Idealist
+This leader believes in the bright nature of their fellow citizens. They refuse to acknowledge even the possibility of our people being corrupt or act in their own self-interest. 
+
+
+Industrialist
+This leader believes that you can, quite literally, build your way into prosperity! In order to do that - we need to lift all red tape and let loose our regulations when it comes to health and safety, personal space, noise and visual pollution, historic site Protection Act, etc. 
+
+
+Loophole finder
+This leader knows how the system works and does not shy away from exploiting it for personal gain. 
+
+
+Marquis de Sade
+What’s the point of living if you don’t get to enjoy your life? This leader is extremely liberal when it comes to indulging in pleasures known to our species. Restrictions that were placed under the influence of religious leaders have been lifted and people are encouraged to explore themselves … whatever that means!
+
+
+Paranoic
+This leader is confident that local separatists, political opponents, and other opportunists are planning a coup d'etat in order to declare their independence from our empire. This is why we need tighter control over the military, a special counter-intelligence unit, and more security detachments in order to prevent that. 
+
+
+Private sector
+KPIs, dashboards, workflows, and agile methodologies. Those unknown terms are only unknown to the public officials that never worked in the private sector, where worker efficiency, productivity, and profit generation are considered to be the highest priority. Luckily, this leader comes from the private sector and is ready to implement the same methodologies in our bureaucratic apparatus. 
+
+
+Professional bureaucrat
+This leader had spent their entire life working as a government official. They know from the inside how the system works. They have a clear understanding of how to make other government officials and agencies do what needs to be done. Or on the contrary - make sure that something never happens!
+
+
+Rare resource collector
+This leader enjoys collecting rare and exotic collectibles as a hobby. Exotic gases, rare metals, materials from far-away planets, artifacts with not fully studied physical properties - there are enough objects for a small museum. In exchange for some of the applicable resources, we had turned a blind eye on the fact that state funds were used to purchase most of them. 
+
+
+Shadow Broker 
+This leader does not shy away from selling information to various parties - as long as they are willing to pay. Corporate espionage, state secrets, intel on rivaling criminal organizations - as long as the price is right. 
+
+
+Rulers
+Capitalist
+Capitalism is god's way of determining who is smart and who is poor. We should embrace the free markets and the Invisible Hand in order to operate with the maximum utility. 
+
+
+Enlightener
+This leader is a cutting edge thinker and a reformist. The old way of thinking should be left in the bin of history. We should embrace modern age ideas and reforms that our state and people would benefit from. Even if that means leaving behind those who reject the fact that the New Age is upon us. 
+
+
+Empire master
+This leader is building a very rigid chain of command in order to ensure that no one can intervene in the state’s affairs. While the hierarchy and responsibilities are clearly defined - not everyone is happy with such power distribution. 
+
+
+Hedonist
+This leader wants to take everything from the life they were given. More and more official receptions are being turned into wild parties with the best spirits, food, exotic dancers, species of easy virtue and mind-altering substances. 
+
+
+Intergalactic diplomat
+This leader takes great interest in intergalactic affairs and wishes to build a good relationship with the galactic community. Foreign affairs are the primary focus of this administration, internal affairs - not so much. 
+
+
+Naive ruler
+This leader is easily fooled by the politicians, lobbyists, and other groups with their own special interests. 
+
+
+Planned economy
+The government knows better what our empire and its people require. This leader personally oversees the production planning and budgeting in order to achieve our state’s goals. We can’t entrust the so-called ‘Invisible hand’ to do the job. 
+
+
+Reinhard von Lohengramm
+A great leader is great in everything - statecraft, military affairs, economy. They know exactly what this empire needs and how it can be achieved. 
+
+
+Right-wing
+This leader believes that it’s up to the individual to achieve goals and success in one’s life because no one should be taking responsibility for one’s life other than the individual themselves. We should praise those who had achieved success in our society and use them as an example for our aspiring youth. 
+
+
+Shadow councilor
+This ruler is not hesitant to engage in backroom negotiations and favor trading if it could help to achieve their goals. Corporations, lobbyists, and shady organizations are happy to engage in, what they call, - ‘opinion exchange’.
+
+
+Socialist
+This leader believes in equality for everyone regardless of their position in society. Nepotism and other forms of favoritism are despised and those that are were found guilty of them - are persecuted mercilessly. 
+
+
+Spineless
+This ruler is easily persuaded and influenced by colleagues and other groups with special interests. Inside or outside of the government or even the empire. 
+
+
+Scientists
+Careful explorer
+This scientist employs very meticulous methods when performing their duty. While it yields great results in the long run - in the short run, this leader will take far greater time to finish their tasks. 
+
+
+Close-minded
+This scientist is bright, intelligent, and too overweening. They don’t trust anyone’s else data or research and if you want to do something right - you have to do it yourself. 
+
+
+Foxhound
+This explorer seems to have a special talent to look where others don’t. They are great in exploring the distant systems and seems to have a trained eye when it comes to anomalies and adventures. 
+
+
+Honest worker
+This scientist believes in diligent and hard work. They are eager to learn and study new technologies and are always found to be working without any breaks. Unfortunately, it seems like overcompensation for the lack of brightness compared to other scientists. 
+
+
+Lazy
+No one knows, how this scientist had got this position as it seems that they never work. Showing up late in the morning, afternoon naps, and early-leaving through the working week seems to be normal. At least while they sleep - they don’t request expensive reagents or experimental equipment.
+
+
+Lunatic 
+This leader is a rare breed of scientists who are too bright for their own benefit. While everyone recognizes their genius and intellectual supremacy, their life and social skills are severely lacking.
