@@ -1,14 +1,3 @@
-# batlleCruiser_commander
-# space_fox
-# tech_savvy
-# space_devil
-# ghost
-# yang_wen_li
-# old_school
-# space_artillerist
-# cautious_admiral
-# guerilla_tactics
-
 # Positive Traits
 # 	Armour 
 # 	Kinetic Damage
