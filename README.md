@@ -17,7 +17,7 @@ Contains .dds icons that are retrieved by the game engine and placed into the re
 #### leaders_Mod/common
 Core folder that contains scripts for changing game logic
 
-[defines](https://github.com/Aleksey1590/Stellaris_Leader_Traits_Overhaul/tree/master/leaders_Mod/common/defines) - Script changes leader pool size to 5 /n
+[defines](https://github.com/Aleksey1590/Stellaris_Leader_Traits_Overhaul/tree/master/leaders_Mod/common/defines) - Script changes leader pool size to 5
 
 [leader_classes/base_leader_classes](https://github.com/Aleksey1590/Stellaris_Leader_Traits_Overhaul/tree/master/leaders_Mod/common/leader_classes) - increases leader's cost and upkeep to 500 energy credits and 2 energy credits/month respectively
 
