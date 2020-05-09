@@ -11,8 +11,8 @@ Contains localisation files. It serves 2 purposes:
     2. Add description to every leader's Trait. 
     3. Localisation in English language
 
-Stellaris_Leader_Traits_Overhaul/leaders_Mod/gfx/interface/icons/traits/leader_traits
+## Stellaris_Leader_Traits_Overhaul/leaders_Mod/gfx/interface/icons/traits/leader_traits
 Contains .dds icons that are retrieved by the game engine and placed into the respective leader trait
 
-Stellaris_Leader_Traits_Overhaul/leaders_Mod/common
+#### Stellaris_Leader_Traits_Overhaul/leaders_Mod/common
 Core folder that contains scripts for changing game logic
