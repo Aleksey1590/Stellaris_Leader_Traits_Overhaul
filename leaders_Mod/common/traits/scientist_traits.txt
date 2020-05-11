@@ -1,15 +1,16 @@
 # Positive trait
-# 	Anomaly Discovery chance
+# 	Anomaly Discovery chance: +15%
+# 	Anomaly fail chance: -50%
 # Negative trait
-# 	Survey Speed
-# 	Anomaly research speed
+# 	Survey Speed: -15%
+# 	Anomaly research speed: -15%
 leader_trait_careful_explorer = {
 	cost = 1
 	modification = no
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_careful_explorer.dds"
 	modifier = {
-		ship_anomaly_fail_risk = -0.50
 		ship_anomaly_generation_chance_mult = 0.15
+		ship_anomaly_fail_risk = -0.50
 		ship_anomaly_research_speed_mult = -0.15
 		science_ship_survey_speed = -0.15
 	}
@@ -40,10 +41,11 @@ leader_trait_careful_explorer = {
 }
 
 # Positive trait
-# 	Research	
+# 	Research speed: +10%	
 # Negative trait
-# 	XP gain
-# 	Anomaly research speed
+# 	XP gain: -20%
+# 	Anomaly research speed: -15%
+# 	Anomaly discovery chance: -15%
 leader_trait_close_minded = {
 	cost = 1
 	modification = no
@@ -68,18 +70,15 @@ leader_trait_close_minded = {
 		"leader_trait_honest_worker"
 		"leader_trait_lazy"
 		"leader_trait_lunatic"
-
 		"leader_trait_paranoid"
-
-
 	}
 }
 
 # Positive trait
-# 	Anomaly Discovery chance
-# 	Survey Speed	
+# 	Anomaly Discovery chance: +20%
+# 	Survey Speed: 20%	
 # Negative trait
-# 	Upkeep+Cost
+# 	Leader Upkeep/Cost: +100%
 leader_trait_foxhound = {
 	cost = 1
 	modification = no
@@ -112,11 +111,10 @@ leader_trait_foxhound = {
 }
 
 # Positive trait
-# 	Anomaly discovery 
-# 	XP gain
+# 	XP gain: +25%
 # Negative trait
-# 	Research Anomaly
-# 	research
+# 	Research speed: -10%
+# 	Anomaly research speed: -10% 
 leader_trait_honest_worker = {
 	cost = 1
 	modification = no
@@ -140,16 +138,13 @@ leader_trait_honest_worker = {
 		"leader_trait_foxhound"
 		"leader_trait_lazy"
 		"leader_trait_lunatic"
-
 		"leader_trait_custom_AI_assistant"
 		"leader_trait_sapient_AI_assistant"
 		"leader_trait_curator"
 		"leader_trait_spark_of_genius"
 		"leader_trait_maniacal"
 		"leader_trait_scientist_erudite"
-
 		"leader_trait_paranoid"
-
 		"leader_trait_roamer"
 		"leader_trait_curator"
 		"leader_trait_towel"
@@ -158,13 +153,10 @@ leader_trait_honest_worker = {
 
 
 # Positive trait
-# 	Upkeep
-# 	Cost
-# 	
+# 	Leader Upkeep/Cost: -50%
 # Negative trait
-# 	Research
-# 	Survey
-# 	
+# 	Ship survey speed: -10%
+# 	Research speed: -10%
 leader_trait_lazy = {
 	cost = 1
 	modification = no
@@ -189,16 +181,13 @@ leader_trait_lazy = {
 		"leader_trait_foxhound"
 		"leader_trait_honest_worker"
 		"leader_trait_lunatic"
-
 		"leader_trait_custom_AI_assistant"
 		"leader_trait_sapient_AI_assistant"
 		"leader_trait_curator"
 		"leader_trait_spark_of_genius"
 		"leader_trait_maniacal"
 		"leader_trait_scientist_erudite"
-
 		"leader_trait_paranoid"
-
 		"leader_trait_roamer"
 		"leader_trait_curator"
 		"leader_trait_towel"
@@ -206,10 +195,10 @@ leader_trait_lazy = {
 }
 
 # Positive trait
-# 	Research Speed
+# 	Research Speed: +20%
 # Negative trait
-# 	Leader XP
-# 	Upkeep + cost
+# 	Leader XP: -15%
+# 	Leader Upkeep/Cost: +50%
 leader_trait_lunatic = {
 	cost = 1
 	modification = no
@@ -234,6 +223,5 @@ leader_trait_lunatic = {
 		"leader_trait_foxhound"
 		"leader_trait_honest_worker"
 		"leader_trait_lazy"
-
 	}
 }

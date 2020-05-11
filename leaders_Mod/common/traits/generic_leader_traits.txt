@@ -1,3 +1,8 @@
+# Positive traits
+# 	
+# Negative traits
+# 	XP gain: -15%
+
 leader_trait_conservative = {
 	cost = 1
 	modification = no
@@ -17,7 +22,10 @@ leader_trait_conservative = {
 	leader_trait = all
 }
 
-
+# Positive traits
+# 	
+# Negative traits
+# 	XP gain: -10%
 leader_trait_inactive = {
 	cost = 1
 	modification = no
@@ -36,6 +44,10 @@ leader_trait_inactive = {
 	}
 }
 
+# Positive traits
+# 	Leader age: +20 years
+# Negative traits
+# 	XP gain: -15%
 leader_trait_health_freak = {
 	cost = 1
 	modification = no
@@ -56,7 +68,10 @@ leader_trait_health_freak = {
 	}
 }
 
-
+# Positive traits
+# 	
+# Negative traits
+# 	Leader age: -20 years
 leader_trait_pill_popper = {
 	cost = 1
 	modification = no

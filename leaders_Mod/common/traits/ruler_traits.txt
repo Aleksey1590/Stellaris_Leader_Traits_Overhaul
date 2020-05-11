@@ -1,7 +1,7 @@
 # Positive Traits
-# 	Trade Value
+# 	Trade Value: +15%
 # Negative Traits
-# 	Admin Cap
+# 	Admininstrative Capacity: -15
 # Neutral Traits
 leader_trait_capitalist = {
 	cost = 1
@@ -35,10 +35,10 @@ leader_trait_capitalist = {
 }
 
 # Positive Traits
-# 	Research
+# 	Research Speed: +10%
 # Negative Traits
-# 	leader cost
-# 	Governing ethics
+# 	Governing ethics attraction: -25%
+#  	Ruler pop happiness: -15%
 # Neutral Traits
 leader_trait_enlightener = {
 	cost = 2
@@ -73,9 +73,9 @@ leader_trait_enlightener = {
 }
 
 # Positive Traits
-# 	Influence
+# 	Influence: +1
 # Negative Traits
-# 	Ruler Happiness
+# 	Ruler pop Happiness = -15%
 # Neutral Traits
 leader_trait_empire_master = {
 	cost = 2
@@ -111,14 +111,14 @@ leader_trait_empire_master = {
 }
 
 # Positive Traits
-# 	Pop growth
-# 	Happiness
-# 	Migration
+# 	Pop growth: 10%
+# 	Happiness: +10%
+# 	Migration: +10%
 # Negative Traits
-# 	Job production
+# 	Job production: -10%
 # Neutral Traits
-# 	Spiritual ethics
-# 	Militarist ethics
+# 	Spiritual ethics attraction: -33%
+# 	Militarist ethics attraction: -33%
 leader_trait_hedonist = {
 	cost = 2
 	modification = no
@@ -156,10 +156,10 @@ leader_trait_hedonist = {
 }
 
 # Positive Traits
-# 	Diplomatic weight
-# 	Additional envoys
+# 	Additional envoys: +1
+# 	Diplomatic weight: +10%
 # Negative Traits
-# 	Admin Capacity
+# 	Administrative Capacity: -15
 # Neutral Traits
 leader_trait_interGalactic_diplomat = {
 	cost = 2
@@ -193,11 +193,10 @@ leader_trait_interGalactic_diplomat = {
 }
 
 # Positive Traits
-# 	Ruler political power
-# 	Ruler happinness
+# 	Ruler political power: +500%
+# 	Ruler happinness: +15%
 # Negative Traits
-# 	Influence
-# Neutral Traits
+# 	Influence: -1
 leader_trait_naive_ruler = {
 	cost = 1
 	modification = no
@@ -231,9 +230,13 @@ leader_trait_naive_ruler = {
 }
 
 # Positive Traits
-# 	Resource Production
+# 	Alloy production: +10%
+# 	Consumer goods production: +10%
+# 	Energy production: 10%
+# 	Minerals production: +10%
+# 	Food production: +10%
 # Negative Traits
-# 	Trade Value
+# 	Trade Value: -25%
 # Neutral Traits
 leader_trait_planned_economy = {
 	cost = 2
@@ -272,15 +275,14 @@ leader_trait_planned_economy = {
 }
 
 # Positive Traits
-# 	AdminCapacity
-# 	Stability
-# 	Army Speed built
-# 	Ship Build Speed
+# 	Administrative Capacity: +20%
+# 	Planet stability: +10
+# 	Army building speed: +50%
+# 	Starbase ship Build speed: +15%
 # Negative Traits
-# 	Leader Upkeep
-# 	Rulers happiness
+# 	Ruler pop happiness: -15%
 # Neutral Traits
-# 	Autocracy attraction
+# 	Autocracy attraction: +33%
 leader_trait_Reinhard_von_Lohengramm = {
 	cost = 3
 	modification = no
@@ -317,13 +319,14 @@ leader_trait_Reinhard_von_Lohengramm = {
 }
 
 # Positive Traits
-# 	Leader level bonus
-# 	Ruler and Specialist happiness
+# 	Leader skill cap: +2
+# 	Ruler pop happiness: +10%
+# 	Specialist pop happiness: +10%
 # Negative Traits
-# 	Worker and Slave happiness
+# 	Worker and Slave happiness: -15%
 # Neutral Traits
-# 	Egalitarian 
-# 	Autocracy
+# 	Egalitarian ethics attraction: -33%
+# 	Autocracy ethics attraction: +33%
 leader_trait_right_wing = {
 	cost = 1
 	modification = no
@@ -361,12 +364,11 @@ leader_trait_right_wing = {
 }
 
 # Positive Traits
-# 	Stability
-# 	Influence
-# 	Governing ethics
+# 	Stability: +10
+# 	Influence: +1
+# 	Governing ethics attraction: +33%
 # Negative Traits
-# 	Crime
-# Neutral Traits
+# 	Crime: +25
 leader_trait_shadow_councilor = {
 	cost = 2
 	modification = no
@@ -401,12 +403,10 @@ leader_trait_shadow_councilor = {
 }
 
 # Positive Traits
-# 	Happiness
+# 	Worker and Slave pop happiness: +10%
 # Negative Traits
-# 	Pop upkeep
-# Neutral Traits
-# 	Egalitarian 
-# 	Autocracy
+# 	Ruler and Specialist pop happiness: -15%
+# 	Job production: -10%
 leader_trait_socialist = {
 	cost = 2
 	modification = no
@@ -442,10 +442,10 @@ leader_trait_socialist = {
 }
 
 # Positive Traits
-# 	Ruler political power
-# 	Ruler happinness
+# 	Ruler political power: +500%
+# 	Ruler happinness: +20%
 # Negative Traits
-# 	Admin Capacity
+# 	Administrative Capacity: -15
 # Neutral Traits
 leader_trait_spineless = {
 	cost = 1

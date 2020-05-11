@@ -1,3 +1,5 @@
+# Increase Leader pool to 5 leaders by default
+
 NGameplay = {
 	LEADER_POOL_SIZE = 5
 }

@@ -1,9 +1,8 @@
 # Positive Traits
-# 	Army Health
-# 	Disengage Chance
-# 	Collatarel Damage
+# 	Disengage Chance: +50%
+# 	Collatarel Damage: -33%
 # Negative Traits
-# 	Army Damage
+# 	Army Damage: -20%
 leader_trait_cautious_general = {
 	cost = 1
 	modification = no
@@ -31,11 +30,10 @@ leader_trait_cautious_general = {
 }
 
 # Positive Traits
-# 	Collatoral damage
-# 	Disengage chance 
+# 	Disengage chance: +50%
+# 	Collatoral damage: -50%
 # Negative Traits
-# 	Army Damage
-# 	Upkeep
+# 	Army Damage: -20%
 leader_trait_compassionate = {
 	cost = 1
 	modification = no
@@ -44,9 +42,8 @@ leader_trait_compassionate = {
 	}
 	modifier = {
 		army_disengage_chance_mult = 0.50
-		army_collateral_damage_mult = -0.5
+		army_collateral_damage_mult = -0.50
 		army_damage_mult = -0.20
-		armies_upkeep_mult = 0.10
 	}
 	leader_potential_add = {
 		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
@@ -66,11 +63,11 @@ leader_trait_compassionate = {
 }
 
 # Positive Traits
-# 	Army Damage/morale
-# 	Army XP gain
+# 	Army Damage: +25%
+# 	Army Morale: +100%
 # Negative Traits
-# 	Upkeep
-# 	Disengage
+# 	Army Upkeep: +50%
+# 	Disengage: -25%
 leader_trait_diamond_dogs = {
 	cost = 2
 	modification = no
@@ -78,9 +75,8 @@ leader_trait_diamond_dogs = {
 	modifier = {
 		army_damage_mult = 0.25
 		army_morale = 1
-		armies_upkeep_mult = 0.5
+		armies_upkeep_mult = 0.25
 		army_disengage_chance_mult = -0.25
-		
 	}
 
 	leader_potential_add = {
@@ -101,9 +97,9 @@ leader_trait_diamond_dogs = {
 }
 
 # Positive Traits
-# 	Sublight Speed
+# 	Sublight Speed: +50%
 # Negative Traits
-# 	Armor 
+# 	Armor points: -50% 
 leader_trait_gale_wolf = {
 	cost = 1
 	modification = no
@@ -131,9 +127,9 @@ leader_trait_gale_wolf = {
 }
 
 # Positive Traits
-# 	Attack damage/morale
+# 	Attack Army Damage/Morale: +20%
 # Negative Traits
-# 	Defense damage/morale
+# 	Defense Army Damage/Morale: +20%
 leader_trait_grey_wolf = {
 	cost = 1
 	modification = no
@@ -167,9 +163,9 @@ leader_trait_grey_wolf = {
 
 
 # Positive Traits
-# 	Defense damage/morale
+# 	Defense Army Damage/Morale: +20%
 # Negative Traits
-# 	Attack damage/morale
+# 	Attack Army Damage/Morale: -20%
 leader_trait_master_of_traps = {
 	cost = 1
 	modification = no
@@ -201,10 +197,9 @@ leader_trait_master_of_traps = {
 }
 
 # Positive Traits
-# 	Army Damage
+# 	Army Damage: +25%
 # Negative Traits
-# 	Collatoral damage
-# 	Disengage
+# 	Collatoral damage: +50%
 leader_trait_chaos_master = {
 	cost = 2
 	modification = no
@@ -212,7 +207,6 @@ leader_trait_chaos_master = {
 	modifier = {
 		army_damage_mult = 0.25
 		army_collateral_damage_mult = 0.50
-		army_disengage_chance_mult = -0.25
 	}
 	leader_potential_add = {
 		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
@@ -233,11 +227,11 @@ leader_trait_chaos_master = {
 }
 
 # Positive Traits
-# 	Army Damage
-# 	Upkeep
+# 	Army Damage: +25%
+# 	Upkeep: -25%
 # Negative Traits
-# 	Army Morale
-# 	Collatoral damage
+# 	Army Morale: -25%
+# 	Collatoral damage: +50%
 leader_trait_old_blood_and_guts = {
 	cost = 2
 	modification = no
@@ -269,10 +263,11 @@ leader_trait_old_blood_and_guts = {
 }
 
 # Positive Traits
-# 	Army damage/moral
-#   +XP gain
+# 	Army Damage: +25%
+# 	Army Morale: +100%
+# 	XP gain bonus: +50%
 # Negative Traits
-# 	Army upkeep
+# 	Army upkeep: +50%
 leader_trait_specops = {
 	cost = 2
 	modification = no

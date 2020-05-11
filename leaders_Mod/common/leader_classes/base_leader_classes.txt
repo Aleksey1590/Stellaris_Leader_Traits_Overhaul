@@ -1,3 +1,6 @@
+# Increase Leader purchase cost to 500 credits by default
+# Increase Leader upkeep to 2 energy units per month
+
 admiral = {
 	can_lead_navy = yes
 	max_trait_points = 2

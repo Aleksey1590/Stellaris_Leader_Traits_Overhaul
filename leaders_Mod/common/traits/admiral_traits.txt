@@ -1,9 +1,9 @@
 # Positive Traits
-# 	Armour 
-# 	Kinetic Damage
+# 	Armor: +15% 
+# 	Armor Penetration: +15% 
 # Negative Traits
-# 	Ship Speed 
-# 	Evasion
+# 	Ship Base Speed: -15% 
+# 	Evasion: -15%
 leader_trait_battleship_commander = {
 	cost = 2
 	modification = no
@@ -35,11 +35,11 @@ leader_trait_battleship_commander = {
 }
 
 # Positive Traits
-# 	Disengage
-# 	Evasion
-# 	FTL damage
+# 	Evasion: +15%
+# 	Disengage chance: +15%
+# 	Emergency FTL losses: -50%
 # Negative Traits
-# 	Chance to hit / Accuracy
+# 	Accuracy: -15%
 leader_trait_cautious_admiral = {
 	cost = 1
 	modification = no
@@ -72,11 +72,10 @@ leader_trait_cautious_admiral = {
 }
 
 # Positive Traits
-# 	Speed 
-# 	Evasion
-# 	Disengage
+# 	Evasion: 50%
+# 	Disengage chance: +100%
 # Negative Traits
-# 	Ship upkeep
+# 	Ship upkeep: +50%
 	
 leader_trait_ghost = {
 	cost = 2
@@ -86,7 +85,6 @@ leader_trait_ghost = {
 		ship_evasion_mult = 0.50
 		ship_disengage_chance_mult = 1
 		ships_upkeep_mult = 0.50
-
 	}
 	leader_potential_add = {
 		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
@@ -108,12 +106,11 @@ leader_trait_ghost = {
 }
 
 # Positive Traits
-# 	Disengage
-# 	FTL Damage 
-# 	Hull damage
+# 	Disengage chance: +33%
+# 	Emergency FTL losses: -50%
+# 	Hull damage: +15%
 # Negative Traits
-# 	Hull Points
-# 	Armour points 
+# 	Hull Points: -15%
 leader_trait_guerilla_tactics = {
 	cost = 2
 	modification = no
@@ -147,10 +144,11 @@ leader_trait_guerilla_tactics = {
 }
 
 # Positive Traits
-# 	Upkeep
-# 	Armour
+# 	Ship upkeep: -20%
+# 	Armour: +15%
 # Negative Traits
-# 	Speed
+# 	Ship base speed: -15%
+# 	Shield points: -15%
 
 leader_trait_old_school = {
 	cost = 2
@@ -186,10 +184,10 @@ leader_trait_old_school = {
 }
 
 # Positive Traits
-# 	Weapon Range
-# 	Planet Bomb damage
+# 	Armor Penetration: +15
+# 	Orbital bombardment: +25%
 # Negative Traits
-# 	Chance to hit / Accuracy
+# 	Ship Accuracy: -15%
 leader_trait_space_artillerist = {
 	cost = 2
 	modification = no
@@ -221,18 +219,16 @@ leader_trait_space_artillerist = {
 }
 
 # Positive Traits
-# 	Damage 
+# 	Weapon Damage: +25%
 # Negative Traits
-# 	Disengage chance
-# 	Ship Upkeep
+# 	Disengage chance: -50%
 leader_trait_space_devil = {
 	cost = 2
 	modification = no
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_space_devil.dds"
 	modifier = {
 		ship_weapon_damage = 0.25
-		ship_disengage_chance_mult = -0.33
-		ships_upkeep_mult = 0.20
+		ship_disengage_chance_mult = -0.50
 	}
 	leader_potential_add = {
 		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
@@ -254,13 +250,13 @@ leader_trait_space_devil = {
 }
 
 # Positive Traits
-# 	Ship Speed
-# 	Evasion
-# 	Disengage
-# 	FTL damage
+# 	Evasion: +15%
+# 	Disengage chance: +33%
+# 	Emergency FTL losses: -50%
+# 	Ship Speed: +33%
 # Negative Traits
-# 	Shield points
-# 	Armour points
+# 	Armour points: -15%
+# 	Shield points: -15%
 leader_trait_space_fox = {
 	cost = 2
 	modification = no
@@ -295,12 +291,12 @@ leader_trait_space_fox = {
 }
 
 # Positive Traits
-# 	Shields
-# 	Fire Rate
-# 	Speed
+# 	Shield points: +15%
+# 	Fire Rate: +20%
+# 	Ship base Speed: +15%
 # Negative Traits
-# 	Armour 
-# 	Ship upkeep
+# 	Armor points: -25% 
+# 	Ship upkeep: +20%
 leader_trait_tech_savvy = {
 	cost = 2
 	modification = no
@@ -332,11 +328,10 @@ leader_trait_tech_savvy = {
 }
 
 # Positive Traits
-# 	Damage 
-# 	Evasion
-# 	Speed
+# 	Weapon Damage: 25%
+# 	Evasion: +10%
 # Negative Traits
-#	Ship Upkeep 
+#	Ship Upkeep: +25%
 leader_trait_yang_wen_li = {
 	cost = 2
 	modification = no
